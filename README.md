@@ -1,7 +1,7 @@
 # <b>Pretrained_dog_classifier</b>
 ### by Qasim Hassan
 
-This is the README file of (AI Programming with Python) Nano-degree.this project is  implementation of a <b>pre-trained image classifier to identify dog breeds</b>.
+This is the README file of (AI Programming with Python) Nano-degree i'll do implementation of a <b>pre-trained image classifier to identify dog breeds</b>.
 
 ## <b>Objectives</b>
 1. Correctly identify which pet images are of dogs (even if breed is misclassified) and which pet images aren't of dogs.
