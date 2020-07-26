@@ -1,7 +1,7 @@
 # <b>Pretrained_dog_classifier</b>
 ### by Qasim Hassan
 
-This is the README file of (AI Programming with Python) Nano-degree.this project is  implementation of a <b>pre-trained image classifier to identify dog breeds</b>.
+This is the README file of (AI Programming with Python) Nano-degree i'll do implementation of a <b>pre-trained image classifier to identify dog breeds</b>.
 
 ## <b>Objectives</b>
 1. Correctly identify which pet images are of dogs (even if breed is misclassified) and which pet images aren't of dogs.
@@ -28,14 +28,14 @@ This is the README file of (AI Programming with Python) Nano-degree.this project
 
 
 ## <b>Questioneries</b>:
-1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.</br>
 <b>Answer</b> Yes, all three models reported the same classification (american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier), though the image is of a dogo argentino (visually similar to pit bull terrier but not in the dictionary.)
 
-2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.</br>
 <b>Answer</b>ResNet and VGG both consistently misidentified the dogo argentino and the flipped image of the dogo argentino as american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier, whereas AlexNet inconsistently classified the flipped image as a weimaraner.
 
-3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.</br>
 <b>Answer</b>Yes, all are correctly classified.
 
-4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.</br>
 <b>Answer</b> ResNet and VGG16 both consistently misidentified the dogo argentino and the flipped image of the dogo argentino as american staffordshire terrier, staffordshire terrier, american pit bull terrier, pit bull terrier, whereas AlexNet inconsistently classified the flipped image as a weimaraner. So ResNet and Vgg appear to be superior at identifying dog breeds. However, they differed in the classification of the non-animal picture (coffee) - VGG16 and AlexNet are the closest because they identified it as a bucket/pail or flower pot/pot, respectively, whereas ResNet thought it was mortar.Therefore, VGG16 is the optimal model architecture for the uploaded images.
